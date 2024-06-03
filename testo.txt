@@ -1,7 +1,4 @@
-function opercaionResta(){
-    var resultado = parseInt(numero1) - parseInt(numero2);
-    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
-}
+
 
 function operacionMultiplicar(){
     var resultado = parseInt(numero1) * parseInt(numero2);

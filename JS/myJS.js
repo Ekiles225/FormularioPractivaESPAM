@@ -9,3 +9,8 @@ function opercaionSuma(){
 }
 
 
+function opercaionResta(){
+    const resultado = parseInt(numero1) - parseInt(numero2);
+    alert("El resultado es: " + resultado);
+    
+}
