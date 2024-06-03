@@ -14,3 +14,8 @@ function opercaionResta(){
     alert("El resultado es: " + resultado);
     
 }
+
+function operacionMultiplicar(){
+    const resultado = parseInt(numero1) * parseInt(numero2);
+    alert("El resultado es: " + resultado)
+}
