@@ -1,29 +1,31 @@
-var numero1 = document.getElementById("numero1").value;
-var numero2 = document.getElementById("numero2").value;
-
-
 
 function opercaionSuma(){
-    debugger
-    var resultado = parseInt(numero1) + parseInt(numero2);
+    var numero1 = Number(document.getElementById("numero1").value);
+    var numero2 = Number(document.getElementById("numero2").value);
+    let resultado = numero1 + numero2;
     alert("El resultado es: " + resultado);
 
 }
 
 
 function opercaionResta(){
-    const resultado = parseInt(numero1) - parseInt(numero2);
+    var numero1 = Number(document.getElementById("numero1").value);
+    var numero2 = Number(document.getElementById("numero2").value);
+    const resultado = numero1 - numero2;
     alert("El resultado es: " + resultado);
-    s
 }
 
 function operacionMultiplicar(){
-    const resultado = parseInt(numero1) * parseInt(numero2);
+    var numero1 = Number(document.getElementById("numero1").value);
+    var numero2 = Number(document.getElementById("numero2").value);
+    const resultado = numero1 * numero2;
     alert("El resultado es: " + resultado)
 }
 
 function operacionDividir(){
-    if(numero1 !=  (parseInt(numero2) == 0)){
+    var numero1 = Number(document.getElementById("numero1").value);
+    var numero2 = Number(document.getElementById("numero2").value);
+    if(numero1 !=  numero2 == 0){
         const resultado = parseInt(numero1) / parseInt(numero2);
         alert("El resultado es: " + resultado)
     }
