@@ -4,8 +4,10 @@ var numero2 = document.getElementById("numero2").value;
 
 
 function opercaionSuma(){
-    const resultado = parseInt(numero1) + parseInt(numero2);
+    debugger
+    var resultado = parseInt(numero1) + parseInt(numero2);
     alert("El resultado es: " + resultado);
+
 }
 
 
@@ -21,8 +23,9 @@ function operacionMultiplicar(){
 }
 
 function operacionDividir(){
-    if(numero2 !=  (parseInt(numero2) == 0)){
+    if(numero1 !=  (parseInt(numero2) == 0)){
         const resultado = parseInt(numero1) / parseInt(numero2);
         alert("El resultado es: " + resultado)
     }
 }
+
